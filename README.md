@@ -10,7 +10,7 @@ Tensorflow implementation of Arjovsky et al.'s [Wasserstein GAN](https://arxiv.o
 
 ## Prerequisites
 - Code was tested in Linux system with Titan GPU. 
-- Model was trained with tensorflow v0.11 and python2.7. Newer versions of tensorflow required updating the summary statements to avoid depreceated warnings.
+- Model was trained with tensorflow v0.11 and python2.7. Newer versions of tensorflow requires updating the summary statements to avoid depreceated warnings.
 - CelebA dataset should be downloaded and unzipped manually. [Download link](https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADIKlz8PR9zr6Y20qbkunrba/Img/img_align_celeba.zip)
 - Default arguments to **main.py** runs GAN with cross entropy objective.
 - **run_main.sh** has command to run Wasserstein GAN model.
